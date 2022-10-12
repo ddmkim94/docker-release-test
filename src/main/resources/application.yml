@@ -1,3 +1,5 @@
 spring:
   profiles:
     active: dev # 기본적으로 application-dev.yml 파일이 적용되서 실행
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
